@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
     tip_percent = int(input().strip())
 
-    tax_percent = int(input().strip())lear
+    tax_percent = int(input().strip())
     
 
     solve(meal_cost, tip_percent, tax_percent)
