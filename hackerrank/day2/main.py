@@ -21,11 +21,11 @@ def solve(meal_cost, tip_percent, tax_percent):
     print (round(total))
 
 if __name__ == '__main__':
-    meal_cost = float(input().strip())
+    meal_cost = float(input( "digite el monto bruto").strip("decimal"))
 
-    tip_percent = int(input().strip())
+    tip_percent = int(input("digite el porcentaje de propina").strip("entero"))
 
-    tax_percent = int(input().strip())
+    tax_percent = int(input("digite el porcentaje de impuesto").strip("entero"))
     
 
     solve(meal_cost, tip_percent, tax_percent)
